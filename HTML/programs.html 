@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Rising Children of Ethiopia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rising Children of Ethiopia Logo" class="logo">
+        <h1>Our Programs</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Programs</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="events.html">Events</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Current Projects</h2>
+        <ul>
+            <li><strong>Weekend Education:</strong> Teaching children to enhance their educational performance.</li>
+        </ul>
+
+        <h2>Past Projects</h2>
+        <ul>
+            <li><strong>Family Trips:</strong> Taking kids and parents on trips outside Addis Ababa to refresh and discover their country.</li>
+        </ul>
+
+        <!-- Add images relevant to projects if available -->
+    </main>
+    <footer>
+        <p>&copy; 2023 Rising Children of Ethiopia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
