@@ -1,0 +1,130 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #e2e8f0;
+  background-color: #0b0f19; /* Deep, very dark background */
+  line-height: 1.5;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #111827; /* Dark charcoal */
+  color: #ffffff;
+  padding: 20px 30px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+nav a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.intro {
+  margin-bottom: 30px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.highlights ul {
+  list-style-type: disc;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #f9fafb;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+p {
+  color: #cbd5e1; /* Off-white / light gray paragraphs for high readability */
+}
+
+ul {
+  margin-left: 20px;
+  color: #cbd5e1;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  background: #111827;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #1f2937;
+  max-width: 600px;
+}
+
+form label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  background-color: #0b0f19;
+  border: 1px solid #374151;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Footer */
+footer {
+  background-color: #111827;
+  color: #9ca3af;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  border-top: 1px solid #1f2937;
+}
